@@ -1,0 +1,36 @@
+p.one {
+    color: #e6e5e9;
+    font-size: medium;
+    text-align: justify;
+    text-decoration-line: underline;
+    text-align: center;
+    background-color: rgb(8, 3, 80);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin : 50px;
+    border-radius: 50px;
+}
+p.s {
+    color: rgb(216, 207, 19);
+    font-size: medium;
+    text-align: justify;
+    text-align: left;
+   
+}
+ a:link {
+  color: blue;      
+}
+
+a:visited {
+  color: rgb(10, 211, 70);    
+}
+
+a:hover {
+  color: red;      
+}
+
+a:active {
+  color: green;     
+}
+
