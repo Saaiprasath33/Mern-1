@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop – NovaShop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container navbar">
+    <a href="index.html" class="logo">Nova<span>Shop</span>.</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html" class="active">Shop</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="nav-search">
+        <span>🔍</span>
+        <input type="text" placeholder="Search products…">
+      </div>
+      <a href="cart.html" class="icon-btn">🛒</a>
+      <a href="login.html" class="icon-btn">👤</a>
+    </div>
+  </div>
+</header>
+
+<main class="container" style="padding-top:3rem;">
+
+  <div class="section-header">
+    <h2>All Products</h2>
+    <span style="font-size:0.85rem;color:#777;">Showing 1 – 12 of 120 items</span>
+  </div>
+
+  <div class="shop-layout">
+    <!-- left filters -->
+    <aside class="filter-card">
+      <h4>Filters</h4>
+
+      <div class="filter-group">
+        <h5 style="margin-bottom:0.4rem;">Category</h5>
+        <label><input type="checkbox"> Laptops</label>
+        <label><input type="checkbox"> Mobiles</label>
+        <label><input type="checkbox"> Headphones</label>
+        <label><input type="checkbox"> Cameras</label>
+      </div>
+
+      <div class="filter-group">
+        <h5 style="margin-bottom:0.4rem;">Price</h5>
+        <label><input type="checkbox"> Under $200</label>
+        <label><input type="checkbox"> $200 – $600</label>
+        <label><input type="checkbox"> Above $600</label>
+      </div>
+
+      <div class="filter-group">
+        <h5 style="margin-bottom:0.4rem;">Rating</h5>
+        <label><input type="checkbox"> 4★ & up</label>
+        <label><input type="checkbox"> 3★ & up</label>
+      </div>
+
+      <button class="btn btn-primary" style="width:100%;margin-top:0.5rem;">Apply Filters</button>
+    </aside>
+
+    <!-- right products -->
+    <section>
+      <div class="product-grid">
+        <!-- You can copy product-card structure from index.html and repeat here -->
+        <article class="product-card">
+          <div class="product-img-wrapper">
+            <img src="img/product1.jpg" alt="">
+          </div>
+          <div class="product-category">Laptop</div>
+          <h3 class="product-title"><a href="product.html">UltraBook Pro 14”</a></h3>
+          <div class="product-price-row">
+            <div>
+              <span class="product-price">$1,099</span>
+            </div>
+            <small>★ 4.9</small>
+          </div>
+        </article>
+
+        <!-- add many more cards… -->
+      </div>
+    </section>
+  </div>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SP33 – Modern Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container navbar">
+    <a href="index.html" class="logo">SP<span>33</span></a>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <div class="nav-search">
+        <span></span>
+        <input type="text" placeholder="Search products…">
+      </div>
+      <a href="cart.html" class="icon-btn">
+        
+        <span class="icon-badge">2</span>
+      </a>
+      <a href="login.html" class="icon-btn"></a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section>
+    <div class="container hero">
+      <div>
+        <div class="hero-badge">
+            Deal
+          <span>Up to 50% off</span>
+        </div>
+        <h1 class="hero-title">Your One-Stop Smart Gadget Store.</h1>
+        <p class="hero-subtitle">
+          Discover hand-picked electronics, accessories and lifestyle products with fast delivery and easy returns.
+        </p>
+        <div class="hero-actions">
+          <a href="shop.html" class="btn btn-primary">Shop Now</a>
+          <a href="shop.html#featured" class="btn btn-outline">View Featured</a>
+        </div>
+        <div class="hero-meta">
+          <div>
+            <strong>40K+</strong>
+            Happy Customers
+          </div>
+          <div>
+            <strong>4.8/5</strong>
+            Average Rating
+          </div>
+          <div>
+            <strong>24/7</strong>
+            Support
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <span class="hero-tag">Limited Summer Sale ☀️</span>
+        <img src="img/hero-laptop.jpg" alt="Hero product">
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE STRIP -->
+  <section>
+    <div class="container feature-strip">
+      <div class="feature-card">
+        <div class="feature-icon">🚚</div>
+        <div>
+          <h4>Free Shipping</h4>
+          <p>On all orders over $99.</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💳</div>
+        <div>
+          <h4>Secure Payment</h4>
+          <p>100% payment protection.</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">↩️</div>
+        <div>
+          <h4>Easy Returns</h4>
+          <p>30-day return policy.</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📞</div>
+        <div>
+          <h4>24/7 Support</h4>
+          <p>We’re here to help you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Browse by Category</h2>
+      </div>
+      <div class="category-strip">
+        <button class="category-pill category-pill--active">All</button>
+        <button class="category-pill">Laptops</button>
+        <button class="category-pill">Mobiles</button>
+        <button class="category-pill">Headphones</button>
+        <button class="category-pill">Cameras</button>
+        <button class="category-pill">Smart Home</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PRODUCTS -->
+  <section id="featured">
+    <div class="container">
+      <div class="section-header">
+        <h2>Featured Products</h2>
+        <a href="shop.html">View all →</a>
+      </div>
+
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <article class="product-card">
+          <span class="product-badge">-30%</span>
+          <a href="product.html">
+            <div class="product-img-wrapper">
+              <img src="m.jpg" alt="">
+            </div>
+          </a>
+          <div class="product-category">Laptop</div>
+          <h3 class="product-title">UltraBook Pro 14”</h3>
+          <div class="product-price-row">
+            <div>
+              <span class="product-price">$1,099</span>
+              <span class="product-price-old">$1,399</span>
+            </div>
+            <small>★ 4.9 (230)</small>
+          </div>
+          <div class="product-actions">
+            <button title="Add to cart">🛒</button>
+            <button title="Wishlist">♡</button>
+          </div>
+        </article>
+
+        <!-- Product 2 -->
+        <article class="product-card">
+          <span class="product-badge">New</span>
+          <div class="product-img-wrapper">
+            <img src="dwv.jpg" alt="">
+          </div>
+          <div class="product-category">Headphones</div>
+          <h3 class="product-title">Noise Cancelling Wireless</h3>
+          <div class="product-price-row">
+            <div>
+              <span class="product-price">$199</span>
+            </div>
+            <small>★ 4.7 (120)</small>
+          </div>
+          <div class="product-actions">
+            <button>🛒</button>
+            <button>♡</button>
+          </div>
+        </article>
+
+        <!-- Product 3 -->
+        <article class="product-card">
+          <span class="product-badge">Hot</span>
+          <div class="product-img-wrapper">
+            <img src="hatrh.jpg" alt="">
+          </div>
+          <div class="product-category">Smartphone</div>
+          <h3 class="product-title">NovaPhone X 5G</h3>
+          <div class="product-price-row">
+            <div>
+              <span class="product-price">$899</span>
+            </div>
+            <small>★ 4.8 (410)</small>
+          </div>
+          <div class="product-actions">
+            <button>🛒</button>
+            <button>♡</button>
+          </div>
+        </article>
+
+        <!-- Product 4 -->
+        <article class="product-card">
+          <span class="product-badge">-15%</span>
+          <div class="product-img-wrapper">
+            <img src="idownload.jpg" alt="">
+          </div>
+          <div class="product-category">Camera</div>
+          <h3 class="product-title">Mirrorless Camera Kit</h3>
+          <div class="product-price-row">
+            <div>
+              <span class="product-price">$749</span>
+              <span class="product-price-old">$899</span>
+            </div>
+            <small>★ 4.6 (90)</small>
+          </div>
+          <div class="product-actions">
+            <button>🛒</button>
+            <button>♡</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG PREVIEW -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>From Our Blog</h2>
+        <a href="blog.html">View all →</a>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <img src="img/blog1.jpg" alt="">
+          <div class="blog-body">
+            <span class="blog-tag">Tips</span>
+            <h3 class="blog-title">How to choose your perfect laptop in 2025</h3>
+            <p class="blog-meta">By Admin • 6 min read</p>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <img src="img/blog2.jpg" alt="">
+          <div class="blog-body">
+            <span class="blog-tag">Guide</span>
+            <h3 class="blog-title">Noise cancelling vs. regular headphones</h3>
+            <p class="blog-meta">By Admin • 4 min read</p>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <img src="img/blog3.jpg" alt="">
+          <div class="blog-body">
+            <span class="blog-tag">Story</span>
+            <h3 class="blog-title">Behind the scenes of SP33</h3>
+            <p class="blog-meta">By Team • 3 min read</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section>
+    <div class="container">
+      <div class="newsletter">
+        <div>
+          <h3>Get 10% off your first order</h3>
+          <p>Join our newsletter and be the first to know about exclusive deals.</p>
+        </div>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email">
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo">SP<span>33</span></div>
+        <p style="margin-top:0.6rem;color:#777;font-size:0.9rem;">
+          Premium gadgets with fast delivery and friendly support.
+        </p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>Careers</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Customer</h4>
+        <ul>
+          <li>Help Center</li>
+          <li>Shipping & Returns</li>
+          <li>FAQ</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <ul>
+          <li>Instagram</li>
+          <li>Twitter</li>
+          <li>Facebook</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 SP33. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
